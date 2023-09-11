@@ -3,7 +3,7 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
-
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -53,11 +53,11 @@ p {
 .error {
   background-image: url(../img_error/error\ warning.svg);
   background-repeat: no-repeat;
-  background-position: 210px;
+  background-position: 95%;
 }
 
 button {
-  background:linear-gradient(0deg, #EE0004, #EE0004);
+  background: #4200FF;
   border-color: #4200FF;
   border: none;
   border-radius: 2px;
