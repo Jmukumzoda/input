@@ -24,7 +24,7 @@ let patterns = {
   email: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i,
   age: /^\S[0-9]{0,3}$/i
 }
-inps.forEach(ipn => {
+inps.forEach((ipn) => {
   ipn.onkeyup = () => {
     if (patterns[ipn.name].test(ipn.value)) {
       ipn.style.borderColor = 'blue'
@@ -37,7 +37,6 @@ inps.forEach(ipn => {
       ipn.style.overflow = 'red'
       document.querySelector("button").style.background = '#EE0004'
     }
-    
 
   }
 
