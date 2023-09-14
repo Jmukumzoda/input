@@ -33,15 +33,21 @@ center {
 form {
   margin: 47px;
   display: flex;
-  flex-direction: column;
+}
 
-  width: 17%;
+label {
+  display: flex;
+  width: 270px;
 }
 
 input {
-  margin: 10px;
-  height: 40px;
+  width: 272px;
+  margin: 13px;
+  height: 56px;
   border-radius: 3px;
+}
+.error-field {
+  color: red !important;
 }
 
 p {
@@ -56,7 +62,8 @@ p {
   background-position: 95%;
 }
 
-button {
+.login button {
+  padding: 25px;
   background: #4200FF;
   border-color: #4200FF;
   border: none;
@@ -64,6 +71,14 @@ button {
   width: 90%;
   height: 59px;
   position: relative;
-  left: -69%;
-  top: 12%;
+    left: -51%;
+    top: 102%;
+}
+#name,#email,#age{
+  border-color: #4200FF;
+  overflow: #4200FF;
+}
+#About_you,#What_is_JavaScript,#What_is_HTML,#What_is_CSS{
+  border-color: #4200FF;
+  overflow: #4200FF;
 }
